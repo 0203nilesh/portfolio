@@ -1,0 +1,83 @@
+.skill-card-box {
+    display: inline-block !important;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0 !important;
+  }
+  
+  .skill-card-box > .header {
+    display: flex;
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    /* padding: 20px; */
+    width: 100%;
+    font-size: 19px;
+  }
+  
+  .skill-card-box > .body {
+    padding: 20px;
+  }
+  
+    .skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .skill-name {
+    width: 120px;
+    font-size: 16px;
+  }
+  
+  
+  .skill-level {
+    width: 160px;
+    height: 10px;
+    background-color: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 20px;
+  }
+  
+  .skill-percent {
+    background-color: #333;
+    height: 100%;
+  }
+  
+  .skill-percent-number {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .skill-card-box > .header{
+      font-size: 17px;
+    }
+    .skill-name{
+      font-size: 14px;
+    }
+    .skill-card-box .body{
+      padding: 10px;
+    }
+    .skill-level{
+      width: 140px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .skill-card-box > .header{
+      font-size: 14px;
+    }
+    .skill-name{
+      font-size: 12px;
+    }
+    .skill-card-box .body{
+      padding: 10px;
+    }
+    .skill-level{
+      width: 110px;
+    }
+  }

@@ -1,0 +1,25 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.about-container> div{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 700px) {
+    .about-container{
+        padding: 10px;
+    }
+    .about-container> div{
+        padding: 10px;
+        gap: 20px;
+    }
+}

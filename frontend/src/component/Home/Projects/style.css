@@ -1,0 +1,31 @@
+.project-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.project-container> .project-heading{
+    font-size: 35px;
+    color: white;
+    width: fit-content;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    text-align: center;
+}
+.project-container> .project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .project-container{
+        padding: 10px;
+    }
+    .project-container> .project{
+        padding: 10px;
+    }
+}

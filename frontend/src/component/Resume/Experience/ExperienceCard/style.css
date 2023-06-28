@@ -1,0 +1,129 @@
+.experience-card-container{
+  height: 400px;
+  width: 400px;
+}
+.resume-card-container {
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 5px rgba(252, 199, 199, 0.2);
+  overflow: hidden;
+}
+
+.resume-card {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.resume-card .resume-front-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+}
+.resume-card .resume-front-content> img{
+  width: 100px;
+  filter: invert(100%);
+}
+
+.resume-card .resume-front-content p {
+  font-size: 32px;
+  font-weight: 700;
+  opacity: 1;
+  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+}
+
+.resume-card .resume-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(-45deg, #e7a452 0%, #ff70b0 100% );
+  color:transparent;
+  padding: 2px 15px;
+  line-height: 1.5;
+  border-radius: 5px;
+  pointer-events: none;
+  transform: translateY(96%);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+.resume-card .resume-content > img{
+    width: 90px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.resume-card .resume-content .resume-heading{
+    margin: 0px !important;
+}
+.resume-card .resume-content .school{
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    flex-direction: column;
+    gap: 10px;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 0;
+    /* gap: 0px 50px; */
+}
+.resume-card .resume-content .school > span{
+    border-bottom: 1px solid black;
+    padding:2px  5px;
+    border-radius: 4px;
+}
+.resume-card .resume-content > p{
+    text-align: justify;
+}
+.resume-card .resume-content .resume-heading {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.resume-card:hover .resume-content  {
+  transform: translateY(0);
+  color: black;
+}
+.resume-content> p{
+    font-size: 13px;
+}
+
+.resume-card:hover .resume-front-content {
+  transform: translateY(-30%);
+}
+
+.resume-card:hover .resume-front-content p {
+  opacity: 0;
+}
+.resume-front-content> p{
+  text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+  .experience-card-container{
+    height: 400px;
+    width: 350px;
+  }
+  .resume-content .resume-heading{
+    font-size: 16px !important;
+  }
+  .resume-content .school{
+    font-size: 12px !important;
+  }
+  .resume-content> p{
+    font-size: 12px !important;
+  }
+}
+

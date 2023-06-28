@@ -1,0 +1,30 @@
+.alert-box{
+    position: absolute;
+    top: 20px;
+    left: 4%;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center !important;
+    z-index: 5;
+    border-radius: 5px;
+    padding: 0px 25px;
+    box-shadow: 0px 0px 15px 3px rgb(41, 41, 41);
+}
+.alert-box> p{
+    font-size: 19px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.alert-box> i{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    top: 18%;
+    font-size: 25px;
+    padding: 5px;
+}
+.alert-box> i:hover{
+    box-shadow: 0px 0px 1px 1px rgb(113, 253, 232);
+    border-radius: 5px;
+}

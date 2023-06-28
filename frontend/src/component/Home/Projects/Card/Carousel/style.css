@@ -1,0 +1,14 @@
+.slide-img{
+    height: 350px;
+}
+
+@media screen and (max-width: 600px) {
+    .slide-img{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .slide-img{
+        height: 250px;
+    }
+}
