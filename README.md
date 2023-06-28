@@ -25,4 +25,8 @@ Welcome to my portfolio website! This is the place where I showcase my skills, e
 ![Screenshot (411)](https://github.com/0203nilesh/portfolio/assets/95562518/2afd210b-a67f-4bc8-92be-bf96f757a36e)
 <br></br>
 ![Screenshot (412)](https://github.com/0203nilesh/portfolio/assets/95562518/bbc5a92e-c76b-4317-a326-01606aa8fc20)
+## Deployement
+ > Thanks both this platform to deploying.
+1. [Netlify](https://app.netlify.com/sites/nilesh-chauhan-portfolio/configuration/general)
+2. [Render](https://dashboard.render.com/web/srv-cie5tst9aq0ce3arfp80/deploys/dep-cie6l4t9aq0adgs2o0cg)
 ## Thanks 
