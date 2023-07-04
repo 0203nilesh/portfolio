@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API= axios.create({baseURL: "https://portfoliobackend-gszu.onrender.com/"});
+const API= axios.create({baseURL: "https://societybackend.onrender.com"});
 
 export const getHobbies= ()=> API.get('/routes/hobbies');
 export const getLanguages= ()=> API.get('/routes/languages');
