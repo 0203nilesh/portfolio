@@ -12,7 +12,7 @@ export default function Navbar() {
           <NavButton text={"Home"} path={'/'} />
           {/* <NavButton text={"Contact"} path={'/contact'} /> */}
           <NavButton text={"About"} path={'/about'} />
-          <NavButton text={"Resume"} path={'/resume'} />
+          <NavButton text={"Background"} path={'/resume'} />
         </div>
         </nav>
         </>
